@@ -1,8 +1,10 @@
 <template>
       <header class="flex justify-between items-center bg-white p-2 md:p-4 px-[12px]  md:px-[24px] py-[12px] md:py-[14px] text-black h-[10vh]">
-        <div class="flex items-center">
+        <nuxt-link to="/" class="">
+          <div class="flex items-center">
           <img src="../../static/logos/Logo.svg" alt="Logo" class="h-8 md:h-10 lg:h-12 mr-4" />
-        </div>
+        </div></nuxt-link>
+        
   
         <nav class="flex space-x-4 py-[12px] md:py-[14px] justify-center items-center">
           <nuxt-link
