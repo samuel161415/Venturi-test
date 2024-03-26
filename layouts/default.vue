@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col min-h-screen">
-      <Header />
+      <corsHeader />
       <main class="flex-grow">
         <slot />
       </main>
@@ -8,7 +8,6 @@
   </template>
   
   <script>
-  import Header from '~/components/cors/Header.vue';
   export default {
     head() {
       return {
@@ -21,9 +20,6 @@
           { rel: "stylesheet", href: "~/assets/css/tailwind.css" },
         ],
       };
-    },
-    components : {
-        Header
     },
     data() {
       return {

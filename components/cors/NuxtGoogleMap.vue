@@ -34,9 +34,6 @@ import {
 
 const runtimeConfig = useRuntimeConfig();
 
-onMounted(() => {
- console.log('env',runtimeConfig.public.GOOGLEMAPSAPIKEY)
- })
 const center = { lat: -31.56391, lng: 147.154312 };
 const location_names = ['location_x','location_y','location_z','location_a','location_b','location_c']
 const locations = [
